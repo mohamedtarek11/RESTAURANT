@@ -1,0 +1,240 @@
+*{
+    font-family: "tajwal"
+}
+
+.num {
+    background-color: rgb(168,45,73);
+
+}
+.numcontent{
+    display: inline-block;
+    margin-right: 0px;
+    color: white;
+    font-weight: bold;
+}
+.numcontent i{
+    font-size: 18px;
+}
+/* ///////////////////////////////////// */
+.selves .container{
+    max-width: 75%;
+}
+.selves .selvesimg{
+    border-radius: 20px;
+}
+.selvescont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 450px;
+}
+.selves .headerbtn{
+    border-radius: 0px;
+    background-color: rgb(168,45,73) !important;
+    width: 150px;
+    padding: 12px 0px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+.selves .headerbtn:hover{
+    background-color: white !important;
+    border: 3px solid rgb(168,45,73);
+    color:rgb(168,45,73) !important;
+}
+/* ////////////////////////////////////// */
+.make{
+    margin-top: 60px;
+}
+.make p , h1{
+    font-family: "tajwal";
+}
+.make .container{
+    max-width: 75%;
+}
+.make .headerbtn{
+    border-radius: 0px;
+    background-color: rgb(168,45,73) !important;
+    width: 150px;
+    padding: 12px 0px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+.make .headerbtn:hover{
+    background-color: white !important;
+    border: 3px solid rgb(168,45,73);
+    color:rgb(168,45,73) !important;
+}
+/* ////////////////////////////////// */
+.some{
+    padding: 70px;
+    background-image: url("./../../images/makeagain.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.some h1,p{
+    font-family: "tajwal";
+}
+.some p{
+    font-size: 18px;
+    color: #555;
+}
+.some .someref{
+    text-decoration: none;
+    color: rgb(168,45,73);
+    font-size: 21px;
+}
+/* //////////////////////////////////// */
+.food{
+    padding: 10px;
+}
+/* .foodcon{
+    background-color: black;
+
+} */
+.food .foodcont{
+    font-family: "tajwal";
+    font-weight: bold;
+    color: rgb(168,45,73);
+    margin-top: 12px;
+
+}
+.food img{
+    border-radius: 10px;
+
+}
+.foodcon{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.352);
+    border-radius: 10px;
+}
+.food .headerbtn{
+    border-radius: 0px;
+    background-color: rgb(168,45,73) !important;
+    width: 150px;
+    padding: 12px 0px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+.food .headerbtn:hover{
+    background-color: white !important;
+    border: 3px solid rgb(168,45,73);
+    color:rgb(168,45,73) !important;
+}
+/* /////////////////////////////// */
+.test{
+    background-color: rgb(168,45,73);
+    padding: 60px 0px;
+    margin: 150px 0px !important;
+}
+.test .container{
+    max-width: 80%;
+}
+.testcont{
+    color: white;
+    margin-bottom: 60px;
+    font-family: "tajwal";
+    
+}
+.testparag{
+    font-size: 18px;
+    font-family: "tajwal";
+}
+.test .carousel-item {
+    background-color: rgb(225,225,225);
+    text-align: center;
+    padding: 40px 0px;
+
+}
+.carousel-item img{
+    width: 7%;
+    border-radius: 50%;
+}
+.carousel-indicators{
+    bottom: -65px !important;
+
+}
+.carousel-indicators button{
+    background-color: white !important;
+    border-radius: 50%;
+    height: 15px !important;
+    width: 15px !important;
+}
+/* ////////////////////////////////////// */
+.Baked {
+    background-image: url("../../images/mmakes.jpg");
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 11;
+    padding: 60px 0px;
+    margin-bottom: 150px !important; 
+}
+.Asked{
+    
+    font-family: 'tajwal','Quicksand', sans-serif;
+    font-weight: bold;
+}
+.Baked .headerbtn{
+    border-radius: 0px;
+    background-color: rgb(168,45,73) !important;
+    width: 150px;
+    padding: 12px 0px;
+    color: white;
+    font-weight: bold;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+.Baked .headerbtn:hover{
+    background-color: white !important;
+    border: 3px solid rgb(168,45,73);
+    color:rgb(168,45,73) !important;
+}
+
+.Bakedcont h3{
+    color: white;
+    padding-top: 17px;
+}
+.Baked:after{
+    content: "";
+    position:absolute;
+    top:0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: black;
+    z-index: -1;
+    opacity: .4;
+}
+/* /////////////////////////////////////////// */
+.footer{
+    background-color: rgb(168,45,73);
+
+}
+.footer p{
+    color: white;
+}
+.footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+    color: white;
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+.foot{
+    height: 200px;
+    /* background-color: black; */
+}

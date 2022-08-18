@@ -1,0 +1,35 @@
+.vav{
+    position: fixed !important;
+    width: 100%;
+    top: 0px;
+    background-color: rgb(255,255,255) !important;
+    z-index: 111;
+}
+.navbtn{
+    background-color: rgb(168,45,73) !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0px !important;
+    padding: 5px 32px !important;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    border:2px solid rgb(168,45,73) !important;
+
+}
+
+.navbtn:hover{
+    background-color: aliceblue !important;
+    border:2px solid rgb(168,45,73) !important;
+    color:rgb(168,45,73) !important ;
+}
+.navtext{
+    color: rgb(168,45,73) !important;
+    font-weight: 700 !important;
+    font-size: 15px !important;
+  
+}
+
+.contain{
+width: 80% !important;
+margin: 0px auto !important;
+}
